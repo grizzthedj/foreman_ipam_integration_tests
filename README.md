@@ -23,7 +23,7 @@ gem install bundler
 
 4. A running phpIPAM instance that has a clean database. Ensure that `Prettify Links` is enabled, and there are no Sections listed.
 
-_*IMPORTANT: These tests were designed to be run on clean databases for both Foreman and phpIPAM. Running these tests on instances that have data(aside from the objects listed above), will result in failed tests and data loss.*_
+_*IMPORTANT: These tests were designed to be run on clean databases for both Foreman and phpIPAM. Running these tests on instances that have data(aside from the objects listed above), will result in failed tests and potential data loss.*_
 
 ## Setup
 
