@@ -1,0 +1,22 @@
+
+IpamEnvs = {
+  "local" => {
+    "url" => "http://phpipam.example.com/",
+    "username" => "admin",
+    "password" => "Password123"
+  },
+  "lab" => "TBD",
+  "staging" => "TBD",
+  "prod" => "TBD"
+}
+
+ForemanEnvs = {
+  "local" => {
+    "url" => "http://foreman.example.com",
+    "username" => "admin",
+    "password" => "Password123"
+  },
+  "lab" => "TBD",
+  "staging" => "TBD",
+  "prod" => "TBD"
+}

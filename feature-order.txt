@@ -1,0 +1,7 @@
+features/phpipam/section.feature
+features/phpipam/subnet.feature
+features/foreman/dashboard.feature
+features/foreman/subnet.feature
+features/foreman/hosts.feature
+features/foreman/cleanup.feature
+features/phpipam/cleanup.feature
