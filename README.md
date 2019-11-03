@@ -9,6 +9,8 @@ These tests test the features in the below Foreman plugins:
 https://github.com/grizzthedj/foreman_ipam  
 https://github.com/grizzthedj/smart_proxy_ipam
 
+Tests must be executed in a specific order(when running whole test suite), so they should be run using `run-tests.sh`, and not use `cucumber` directly.
+
 ## Prerequisites
 
 1. Download latest geckodriver and add to PATH.
@@ -27,9 +29,9 @@ _*IMPORTANT: These tests were designed to be run on clean databases for both For
 
 ## Setup
 
-1. bundle install
+1. `bundle install`
 2. Copy `config/app-config.yml.example` to `config/app-config.yml` and provide Foreman and phpIPAM credentials
-3. Ensure Foreman, Smart Proxy and phpIPAM are all up and running. NOTE: The Smart Proxy must have the `external_ipam` feature enabled(i.e. the `smart_proxy_ipam` plugin installed)
+3. Ensure Foreman, Smart Proxy and phpIPAM are all up and running. NOTE: The Smart Proxy must have the smart_proxy_ipam plugin installed, and the `external_ipam` feature must be enabled.
 
 ## Running the Features
 
